@@ -61,6 +61,9 @@ class Graph {
     }
     return result;
   }
+
+  /// **** same function, recursively.
+
   // depthFirstSearch(start, seen = new Set([start]), result = [start.value]) {
   //   for (let adj of start.adjacent) {
   //     if (!seen.has(adj)) {
